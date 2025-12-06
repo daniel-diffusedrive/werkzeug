@@ -1,0 +1,84 @@
+- prompt: "An eo image from a usv. A serene coastal scene with a lush, green island with palm trees and rocky outcrops. Two white boats are in the center, moving in the middle distance on a calm sea with gentle ripples, leaving subtle trails and a strong wake. Level view from the water's surface. Daytime with bright sunlight, scattered clouds, excellent visibility. No other water vehicles, birds, or buoys. No motion blur, occlusions, or truncations."
+  questions:
+    object_count:
+      - question: "Does the image contain exactly two water vehicles? Please answer either 'yes' or 'no'. The answer must be one word, either 'yes' or 'no'. the answer must be in lowercase."
+        answer: "yes"
+      - question: "Are there more than two water vehicles visible in the image? Please answer either 'yes' or 'no'. The answer must be one word, either 'yes' or 'no'. the answer must be in lowercase."
+        answer: "no"
+
+    object_quality:
+      - question: "Do the water vehicles appear to be boats? Please answer either 'yes' or 'no'. The answer must be one word, either 'yes' or 'no'. the answer must be in lowercase."
+        answer: "yes"
+      - question: "Is the island depicted with palm trees and rocky outcrops? Please answer either 'yes' or 'no'. The answer must be one word, either 'yes' or 'no'. the answer must be in lowercase."
+        answer: "yes"
+      - question: "Does the image show bright daylight conditions without haze, mist, or rain? Please answer either 'yes' or 'no'. The answer must be one word, either 'yes' or 'no'. the answer must be in lowercase."
+        answer: "yes"
+
+    object_arrangement:
+      - question: "Are both water vehicles located near the center of the image? Please answer either 'yes' or 'no'. The answer must be one word, either 'yes' or 'no'. the answer must be in lowercase."
+        answer: "yes"
+      - question: "Are the two boats in the middle distance, moving through the water? Please answer either 'yes' or 'no'. The answer must be one word, either 'yes' or 'no'. the answer must be in lowercase."
+        answer: "yes"
+      - question: "Is the horizon clearly visible above the water? Please answer either 'yes' or 'no'. The answer must be one word, either 'yes' or 'no'. the answer must be in lowercase."
+        answer: "yes"
+
+    environment_matching:
+      - question: "Does the water appear calm with only gentle ripples? Please answer either 'yes' or 'no'. The answer must be one word, either 'yes' or 'no'. the answer must be in lowercase."
+        answer: "yes"
+      - question: "Is a lush green island visible in the background? Please answer either 'yes' or 'no'. The answer must be one word, either 'yes' or 'no'. the answer must be in lowercase."
+        answer: "yes"
+      - question: "Is the sky mostly clear with only scattered clouds? Please answer either 'yes' or 'no'. The answer must be one word, either 'yes' or 'no'. the answer must be in lowercase."
+        answer: "yes"
+      - question: "Does the overall scene look like a tranquil coastal daytime setting? Please answer either 'yes' or 'no'. The answer must be one word, either 'yes' or 'no'. the answer must be in lowercase."
+        answer: "yes"
+
+    realism_plausibility:
+      - question: "Does the image look realistic and natural overall? Please answer either 'yes' or 'no'. The answer must be one word, either 'yes' or 'no'. the answer must be in lowercase."
+        answer: "yes"
+      - question: "Are the objects in the image depicted in a way that looks physically possible? Please answer either 'yes' or 'no'. The answer must be one word, either 'yes' or 'no'. the answer must be in lowercase."
+        answer: "yes"
+      - question: "Are there any obvious indications that the scene is impossible in reality? Please answer either 'yes' or 'no'. The answer must be one word, either 'yes' or 'no'. the answer must be in lowercase."
+        answer: "no"
+
+
+- prompt: "An eo image from a uav. The image captures a serene view of the open ocean under a vast, overcast sky, where the horizon stretches endlessly into the distance. The sea appears calm with gentle ripples reflecting the diffused sunlight, creating a shimmering effect across the water's surface. Thirty ships are arranged in a horizontal line across the expanse, their silhouettes clearly visible against the vastness of the sea. The perspective seems to be from a high vantage point, possibly from an aerial drone, offering a broad, level view that emphasizes the boundless nature of the ocean. The sky is filled with a mix of thin, wispy clouds and denser, darker formations, suggesting a cloudy day without strong precipitation. There are no visible signs of strong wind or rough seas, as the water remains relatively tranquil. The overall scene evokes a sense of solitude and tranquility, with the formation of vessels adding a striking human presence to this vast maritime landscape."
+  questions:
+    object_count:
+      - question: "Does the image contain exactly thirty ships?"
+        answer: yes
+      - question: "Are there fewer than thirty ships visible in the image?"
+        answer: no
+      - question: "Are there more than thirty ships visible in the image?"
+        answer: no
+
+    object_quality:
+      - question: "Do the ships appear to be recognizable vessels?"
+        answer: yes
+      - question: "Is the ocean surface depicted with gentle ripples?"
+        answer: yes
+      - question: "Is the sky shown as overcast with clouds?"
+        answer: yes
+
+    object_arrangement:
+      - question: "Are the thirty ships arranged in a horizontal line?"
+        answer: yes
+      - question: "Does the perspective suggest a high vantage point above the ocean?"
+        answer: yes
+      - question: "Is the horizon clearly visible in the image?"
+        answer: yes
+
+    environment_matching:
+      - question: "Does the ocean appear calm without rough seas?"
+        answer: yes
+      - question: "Is there evidence of overcast daylight without strong precipitation?"
+        answer: yes
+      - question: "Does the scene look like a vast maritime landscape?"
+        answer: yes
+
+    realism_plausibility:
+      - question: "Does the image look realistic and natural overall?"
+        answer: yes
+      - question: "Are the objects and their arrangement physically possible?"
+        answer: yes
+      - question: "Are there any obvious indications that the scene is impossible in reality?"
+        answer: no
